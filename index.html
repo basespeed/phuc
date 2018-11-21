@@ -1,0 +1,921 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kidplaza - Một trang web mới sử dụng WordPress</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+
+</head>
+<body>
+    <header class="header-top">
+        <div class="container">
+            <div class="row">
+                <div id="hdl" class="col-md-3">
+                    <div class="hd1"><a href="#">Kids Plaza</a></div>
+                    <div class="hd2"><a href="#">Đồ sơ sinh GIÁ RẺ</a></div>
+                </div>
+                <div id="hdr" class="col-md-9">
+                    <ul>
+                        <li><a href="#">Hệ thống siêu thị toàn quốc</a></li>
+                        <li><a href="#">Hoàn tiền 5 phút</a></li>
+                        <li><a href="#">Cam kết khớp giá</a></li>
+                        <li><a href="#">Tin tức</a></li>
+                        <li><a href="#">Hỏi đáp</a></li>
+                        <li><a href="#">Gọi mua hàng: <span>0126 922 0162</span> (miễn phí)</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="tablet">
+            <ul>
+                <li>
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    <span>Contact</span>
+                </li>
+                <li>
+                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                    <span>08:00 - 17:00</span>
+                </li>
+                <li>
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <span>+47 900 99 000</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="menu-mtb">
+            <div class="seach-mtb">
+                <input type="text" placeholder="Bố mẹ tìm gì cho bé hôm nay">
+                <button type="submit" value=""><i class="fa fa-search" aria-hidden="true"></i></button>
+            </div>
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Cửa hàng</a></li>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Tin tức</a></li>
+                <li><a href="#">Liên hệ</a></li>
+                <li><a href="#">Đăng nhập</a></li>
+                <li><a href="#">Newsletter</a></li>
+            </ul>
+            <div class="icon">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+            </div>
+            <div class="dong">
+                <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+                <span>Đóng menu</span>
+            </div>
+        </div>
+
+        <div class="giohang">
+            <p>GIỎ HÀNG</p>
+            <div class="gh"></div>
+            <span>Chưa có sản phẩm trong giỏ hàng.</span>
+        </div>
+
+        <div class="close-gh">
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+    </header>
+
+    <div class="header-bottom">
+        <div class="container">
+            <div class="row">
+                <div id="logo-mtb" class="col-md-3">
+                    <div class="logo">
+                        <a href="#"><img src="img/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div id="timkiem" class="col-md-9">
+                    <div class="text">
+                        <p>Khu vực</p>
+                        <span>Tp.Hồ Chí Minh</span>
+                    </div>
+                    <div class="seach">
+                        <input type="text" placeholder="Bố mẹ tìm gì cho bé hôm nay">
+                        <button type="submit" value=""><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </div>
+                    <div class="login">
+                        <a href="#">
+                            Đăng nhập     / Đăng ký  </a>
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-bars">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+    </div>
+
+    <div class="danhmuc">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="dm-top">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                        <span>DANH MỤC</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="list-menu" class="row">
+            <div id="menu" class="col-md-2">
+                <ul class="list">
+                    <li>
+                        <a href="#">
+                            <img src="img/dm1.png" alt="" width="20px" height="20px">
+                            <span>Khuyến mãi HOT</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/dm2.png" alt="" width="20px" height="20px">
+                            <span>Cho bé ăn</span>
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </a>
+                        <ul class="list1">
+                            <li><a href="#">Bình sữa</a></li>
+                            <li><a href="#">Bột ăn dặm</a></li>
+                            <li><a href="#">Ghế ngồi ăn</a></li>
+                            <li><a href="#">Ly uống nước</a></li>
+                            <li><a href="#">Máy hâm sữa</a></li>
+                            <li><a href="#">Máy hút sữa</a></li>
+                            <li><a href="#">Phụ kiện</a></li>
+                            <li><a href="#">Sữa bột cho bé</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/dm3.png" alt="" width="20px" height="20px">
+                            <span>Cho bé chơi</span>
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </a>
+                        <ul class="list2">
+                            <li><a href="#">Đồ chơi thông minh</a></li>
+                            <li><a href="#">Phụ kiện</a></li>
+                            <li><a href="#">Scooter</a></li>
+                            <li><a href="#">Xe đạp</a></li>
+                            <li><a href="#">Xe lắc</a></li>
+                            <li><a href="#">Xe tập đi</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/dm4.png" alt="" width="20px" height="20px">
+                            <span>Cho bé học</span>
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </a>
+                        <ul class="list3">
+                            <li><a href="#">Bé học tập</a></li>
+                            <li><a href="#">Dành cho bé</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/dm5.png" alt="" width="20px" height="20px">
+                            <span>Cho bé mặc</span>
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </a>
+                        <ul class="list4">
+                            <li><a href="#">Giày dép</a></li>
+                            <li><a href="#">Giày tập cho bé gái</a></li>
+                            <li><a href="#">Giày tập cho bé trai</a></li>
+                            <li><a href="#">Nón,yếm,vớ</a></li>
+                            <li><a href="#">Quần áo bé gái</a></li>
+                            <li><a href="#">Quần áo bé trai</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/dm6.png" alt="" width="20px" height="20px">
+                            <span>Cho bé ngủ</span>
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </a>
+                        <ul class="list5">
+                            <li><a href="#">Cũi</a></li>
+                            <li><a href="#">Ghế nằm</a></li>
+                            <li><a href="#">Giường</a></li>
+                            <li><a href="#">Nôi xách tay</a></li>
+                            <li><a href="#">Tấm lót sàn</a></li>
+                            <li><a href="#">Võng</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/dm7.png" alt="" width="20px" height="20px">
+                            <span>Cho bé an toàn</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/dm8.png" alt="" width="20px" height="20px">
+                            <span>Vệ sinh cho bé</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/dm9.png" alt="" width="20px" height="20px">
+                            <span>Cho mẹ</span>
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </a>
+                        <ul class="list8">
+                            <li><a href="#">Đồ dùng gia đình</a></li>
+                            <li><a href="#">Đồ lót sau sinh</a></li>
+                            <li><a href="#">Gen nịt bụng</a></li>
+                            <li><a href="#">Miếng lót thấm sữa</a></li>
+                            <li><a href="#">Sách nuôi dạy con</a></li>
+                            <li><a href="#">Sữa tắm,gội</a></li>
+                            <li><a href="#">Tã,băng vệ sinh</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/dm10.png" alt="" width="20px" height="20px">
+                            <span>Gợi ý quà tặng</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/dm11.png" alt="" width="20px" height="20px">
+                            <span>Đồ dùng cá nhân</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="anh" class="col-md-10">
+                <div class="pic">
+                    <div class="pic1">
+                        <a class="max" href="#"><img src="img/anh1.png" alt=""></a>
+                        <div class="min">
+                            <a href="#"><img src="img/anh2.png" alt=""></a>
+                            <a href="#"><img src="img/anh3.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="pic2">
+                        <div class="item">
+                            <a href="#"><img src="img/anh4.png" alt=""></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="img/anh5.png" alt=""></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="img/anh6.png" alt=""></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="img/anh7.png" alt=""></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="img/anh8.png" alt=""></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="img/anh9.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="pic3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <a href="#"><img src="img/anh10.png" alt=""></a>
+                </div>
+                <div class="col-md-5">
+                    <a href="#"><img src="img/anh11.png" alt=""></a>
+                </div>
+                <div class="col-md-5">
+                    <a href="#"><img src="img/anh12.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sanpham">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Sản phẩm nổi bật</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sanpham">
+        <div class="container">
+            <div id="sp" class="row">
+                <div class="item2">
+                    <ul>
+                        <li>
+                            <div class="images">
+                                <a href="#"><img src="img/it1.jpg" alt=""></a>
+                            </div>
+                            <div class="chitiet">
+                                <p>CHO MẸ</p>
+                                <a href="#">Sách mang thai thành công 280 ngày</a><br>
+                                <span>85,000 ₫</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="images">
+                                <a href="#"><img src="img/it2.jpg" alt=""></a>
+                            </div>
+                            <div class="chitiet">
+                                <p>CHO BÉ MẶC</p>
+                                <a href="#">Set 3 chi tiết áo khoác mũ JR195 Thái lan</a><br>
+                                <span>268,000 ₫</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="images">
+                                <a href="#"><img src="img/it3.png" alt=""></a>
+                            </div>
+                            <div class="chitiet">
+                                <p>BỘT ĂN DẶM</p>
+                                <a href="#">Bột ăn dặm Ridielac bò rau củ HG 200G</a><br>
+                                <span>48,500 ₫</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="images">
+                                <a href="#"><img src="img/it4.jpg" alt=""></a>
+                            </div>
+                            <div class="chitiet">
+                                <p>CHO MẸ</p>
+                                <a href="#">Sách ăn dặm cho bé</a><br>
+                                <span>45,000 ₫</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="images">
+                                <a href="#"><img src="img/it5.jpg" alt=""></a>
+                            </div>
+                            <div class="chitiet">
+                                <p>CHO BÉ MẶC</p>
+                                <a href="#">Set fisher price body Thái Lan</a><br>
+                                <del>195,000 ₫</del>
+                                <span>185,000 ₫</span>
+                                <div class="sale">Giảm giá!</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="images">
+                                <a href="#"><img src="img/it6.jpg" alt=""></a>
+                            </div>
+                            <div class="chitiet">
+                                <p>CHO BÉ NGỦ</p>
+                                <a href="#">Gối sơ sinh TomTom Thái Lan</a><br>
+                                <span>98,000 ₫</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="images">
+                                <a href="#"><img src="img/it7.jpg" alt=""></a>
+                            </div>
+                            <div class="chitiet">
+                                <p>CHO MẸ</p>
+                                <a href="#">30 việc cha mẹ nên làm cùng con</a><br>
+                                <del>85,000 ₫</del>
+                                <span>78,000 ₫</span>
+                                <div class="sale">Giảm giá!</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="images">
+                                <a href="#"><img src="img/it8.png" alt=""></a>
+                            </div>
+                            <div class="chitiet">
+                                <p>BÌNH SỮA</p>
+                                <a href="#">Bình tập uống Avent cho trẻ từ 12 tháng</a><br>
+                                <span>255,000 ₫</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="t1">
+                <span>T1</span>
+                <h3>BÉ ĂN – BÉ UỐNG</h3>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="be-an">
+                <div class="an">
+                    <ul>
+                        <li><img src="img/an1.png" alt=""></li>
+                        <li>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/an2.png" alt="">
+                                        Sữa
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/an3.png" alt="">
+                                        Ăn dặm
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/an4.png" alt="">
+                                        Núm ti
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/an3.png" alt="">
+                                        Bình sữa
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/an5.png" alt="">
+                                        Hâm nóng
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/an6.png" alt="">
+                                        Đồ dùng
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <div class="sua">
+                                <a href="#">Bình sữa</a>
+                                <a href="">Bột ăn dặm</a>
+                                <a href="">Ghế ngồi ăn</a>
+                                <a href="">Ly uống nước</a>
+                                <a href="">Máy hâm sữa</a>
+                            </div>
+                            <div class="bot">
+                                <a href="#">Bình sữa</a>
+                                <a href="">Bột ăn dặm</a>
+                                <a href="">Ghế ngồi ăn</a>
+                                <a href="">Ly uống nước</a>
+                                <a href="">Máy hâm sữa</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="uong">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="img/uong1.jpg" alt=""></a>
+                            <p>CHO BÉ ĂN</p>
+                            <a href="#">Sữa Meiji số 9 dạng thanh – 24 thanh</a><br>
+                            <span>500,000 ₫</span>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/uong2.jpg" alt=""></a>
+                            <p>BÌNH SỮA</p>
+                            <a href="#">Sữa nước PediaSure BA 3+ (237ml)</a><br>
+                            <span>35,000 ₫</span>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/uong3.jpg" alt=""></a>
+                            <p>BỘT ĂN DẶM</p>
+                            <a href="#">Bột ăn dặm Ridielac bò rau củ HG 200G</a><br>
+                            <span>48,500 ₫</span>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/uong4.jpg" alt=""></a>
+                            <p>CHO BÉ ĂN</p>
+                            <a href="#">Enfamil A+ 3 Vani Brain Plus 400g</a><br>
+                            <span>230,000 ₫</span>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/uong5.jpg" alt=""></a>
+                            <p>BÌNH SỮA</p>
+                            <a href="#">Bộ bình 2 chiếc – 250ml</a><br>
+                            <span>390,000 ₫</span>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/uong6.jpg" alt=""></a>
+                            <p>CHO BÉ ĂN</p>
+                            <a href="#">Sữa bột dinh dưỡng Aptamil Đức số 1 – 1.2 kg</a><br>
+                            <span>765,000 ₫</span>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/uong7.jpg" alt=""></a>
+                            <p>BÌNH SỮA</p>
+                            <a href="#">Bình sữa baby one nano sliver cổ rộng 260ml</a><br>
+                            <span>265,000 ₫</span>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/uong8.jpg" alt=""></a>
+                            <p>BÌNH SỮA</p>
+                            <a href="#">Bình tập uống Avent cho trẻ từ 12 tháng</a><br>
+                            <span>255,000 ₫</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div id="slider1" class="owl-carousel owl-theme">
+                <div class="item">
+                    <a href="#"><img src="img/sl1.jpg" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="img/sl2.png" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="img/sl3.jpg" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="img/sl4.png" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="img/sl5.png" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="img/sl6.png" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="img/sl7.jpg" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="img/sl8.jpg" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="img/sl1.jpg" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="img/sl2.png" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="img/sl3.jpg" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="img/sl4.png" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="img/sl5.png" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="img/sl6.png" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="img/sl7.jpg" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="img/sl8.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="t2">
+                <span>T2</span>
+                <h3>BÉ MẶC ĐẸP</h3>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="be-mac">
+                <div class="an">
+                    <ul>
+                        <li><img src="img/an1-2.jpg" alt=""></li>
+                        <li>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/an2.png" alt="">
+                                        Sữa
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/an3.png" alt="">
+                                        Ăn dặm
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/an4.png" alt="">
+                                        Núm ti
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/an3.png" alt="">
+                                        Bình sữa
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/an5.png" alt="">
+                                        Hâm nóng
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/an6.png" alt="">
+                                        Đồ dùng
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <div class="sua">
+                                <a href="#">Giày tập đi bé gái</a>
+                                <a href="">Giày tập đi bé trai</a>
+                                <a href="">Nón, yếm, vớ</a>
+                                <a href="">Quần áo bé gái</a>
+                                <a href="">Quần áo bé trai</a>
+                            </div>
+                            <div class="bot">
+                                <a href="#">Giày tập đi bé gái</a>
+                                <a href="">Giày tập đi bé trai</a>
+                                <a href="">Nón, yếm, vớ</a>
+                                <a href="">Quần áo bé gái</a>
+                                <a href="">Quần áo bé trai</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="uong">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="img/uong1-2.jpg" alt=""></a>
+                            <p>CHO BÉ MẶC</p>
+                            <a href="#">Áo tay dài bé trai Kiza đáp áo gile đính nơ cổ</a><br>
+                            <span>500,000 ₫</span>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/uong2-2.jpg" alt=""></a>
+                            <p>CHO BÉ MẶC</p>
+                            <a href="#">Áo tay dài bé trai Kiza in hình gấu Brown phối tay màu</a><br>
+                            <span>35,000 ₫</span>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/uong3-2.jpg" alt=""></a>
+                            <p>CHO BÉ MẶC</p>
+                            <a href="#">Bộ băng lông body 2 lớp thú xuất khẩu</a><br>
+                            <span>48,500 ₫</span>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/uong4-2.jpg" alt=""></a>
+                            <p>CHO BÉ MẶC</p>
+                            <a href="#">Bộ body dài tay viền hồng liền tất in hình</a><br>
+                            <span>230,000 ₫</span>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/uong5-2.jpg" alt=""></a>
+                            <p>CHO BÉ MẶC</p>
+                            <a href="#">Bộ Body dài tay viền xanh liền-tất in hình</a><br>
+                            <span>390,000 ₫</span>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/uong6-2.jpg" alt=""></a>
+                            <p>CHO BÉ MẶC</p>
+                            <a href="#">Set Carter 5 bộ body chi tiết màu</a><br>
+                            <span>765,000 ₫</span>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/uong7-2.jpg" alt=""></a>
+                            <p>CHO BÉ MẶC</p>
+                            <a href="#">Set fisher price body Thái Lan</a><br>
+                            <span>265,000 ₫</span>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/uong8-2.jpg" alt=""></a>
+                            <p>CHO BÉ MẶC</p>
+                            <a href="#">Set 3 chi tiết áo khoác mũ JR195 Thái lan</a><br>
+                            <span>255,000 ₫</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div id="slider2" class="owl-carousel owl-theme">
+                <div class="item">
+                    <a href="#"><img src="img/sl1.jpg" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="img/sl2.png" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="img/sl3.jpg" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="img/sl4.png" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="img/sl5.png" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="img/sl6.png" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="img/sl7.jpg" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="img/sl8.jpg" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="img/sl1.jpg" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="img/sl2.png" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="img/sl3.jpg" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="img/sl4.png" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="img/sl5.png" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="img/sl6.png" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="img/sl7.jpg" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="img/sl8.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-end">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>
+                        NHẬN TIN KHUYẾN MÃI & QUÀ<br>
+                        Thông tin của bạn được giữ kín tuyệt đối, và có thể hủy đăng ký bất cứ lúc nào.<br>
+                        Đăng ký ngay để nhận nhiều ưu đãi hơn.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <div class="form">
+                        <input class="nhap-mail" type="text" name="email" placeholder="Địa chỉ email">
+                        <button type="submit" name="dangky">ĐĂNG KÝ</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ft1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <ul>
+                        <li>
+                            <span>MENU</span>
+                        </li>
+                        <li></li>
+                        <li><a href="#">Trang chủ</a></li>
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Cửa hàng</a></li>
+                        <li><a href="#">Tin tức</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul>
+                        <li>
+                            <span>HƯỚNG DẪN, GIẢI ĐÁP</span>
+                        </li>
+                        <li></li>
+                        <li><a href="#">Câu hỏi thường gặp</a></li>
+                        <li><a href="#">Điều khoản sử dụng</a></li>
+                        <li><a href="#">Phương thức vận chuyển</a></li>
+                        <li><a href="#">Hướng dẫn đổi trả</a></li>
+                        <li><a href="#">Hướng dẫn trả góp</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul>
+                        <li>
+                            <span>QUY ĐỊNH CHÍNH SÁCH</span>
+                        </li>
+                        <li></li>
+                        <li><a href="#">Chính sách và quy định chung</a></li>
+                        <li><a href="#">Chính sách bảo hành</a></li>
+                        <li><a href="#">Chính sách đổi trả hàng</a></li>
+                        <li><a href="#">Chính sách bảo mật</a></li>
+                        <li><a href="#">Điều khoản sử dụng</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul>
+                        <li>
+                            <span>HỖ TRỢ</span>
+                        </li>
+                        <li></li>
+                        <li><strong>Tư vấn bán hàng (8h00 - 21h00) - MIỄN PHÍ</strong></li>
+                        <li><strong>1800 6608</strong></li>
+                        <li><strong>Gọi khiếu nại (8h00 - 21h00) - MIỄN PHÍ</strong></li>
+                        <li><strong>1800 6608 - 3</strong></li>
+                        <li><strong>Bảo hành sản phẩm (8h00 - 21h00)</strong></li>
+                        <li><strong>1900 6090 - 3</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="ft2">
+        <div class="container">
+            <div class="row">
+                <span>Copyright © 2018 <a href="#">Kidplaza</a> by Mr.Phuc</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="messenger">
+        <img src="img/messenger.png" alt="">
+    </div>
+
+
+
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/js.js"></script>
+
+    <script>
+        jQuery(function () {
+            'use strict'
+            jQuery('.menu-bars').on('click',function () {
+                jQuery('.menu-mtb').show(300);
+                jQuery(this).hide();
+            });
+            jQuery('.menu-mtb .dong').on('click',function () {
+                jQuery('.menu-mtb').hide();
+                jQuery('.menu-bars').show();
+            });
+            jQuery('.header-bottom #timkiem .login i').on('click',function () {
+                jQuery('.giohang').show(300);
+                jQuery('.close-gh').show();
+            });
+            jQuery('.close-gh').on('click',function () {
+                jQuery('.giohang').hide();
+                jQuery(this).hide();
+            });
+            jQuery('.danhmuc .dm-top').on('click',function () {
+                jQuery('#list-menu #menu').toggle();
+            });
+
+        });
+
+    </script>
+</body>
+</html>
